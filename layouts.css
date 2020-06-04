@@ -1,0 +1,99 @@
+/* LAYOUT: 
+// Major components of a page
+//  // header 
+//  //  nav
+//  //  content
+//  // footer
+//  // ID selectors
+//  //  a Layout style only has a single selector: a single ID or class name. However, there are times when a Layout needs to respond to different factors
+
+ */
+
+ main{
+  width: 480px;
+  margin: auto;
+}
+
+div{
+  border: .5px solid #d00000;
+  background-color: #999;
+  /* float: left; */
+  text-align: center;
+}
+
+div:nth-child(1){
+  height: 75px;
+  line-height: 75px;
+  background-color: #264653;
+  color: white;
+}
+
+div:nth-child(2){
+  height: 150px;
+  line-height: 150px;
+  background-color: #2a9d8f;
+  color: white;
+}
+
+div:nth-child(3), div:nth-child(4){
+  height: 125px;
+  line-height: 125px;
+  background-color: #e9c46a;
+  color: white;
+}
+
+div:nth-child(5), div:nth-child(6), div:nth-child(7), div:nth-child(8){
+  width: 50%;
+  height: 250px;
+  line-height: 250px;
+  float: left;
+  background-color: #f4a261;
+  color: white;
+}
+
+div:nth-child(9){
+  height: 80px;
+  line-height: 80px;
+  clear: both;
+  background-color: #e76f51;
+  color: white;
+}
+
+/* media query */
+@media only screen and (min-width:768px){
+  main{
+    width: 960px;
+  }
+
+  div:nth-child(1){
+    height: 100px;
+    line-height: 100px;
+  }
+
+  div:nth-child(2){
+    height: 600px;
+    width: 200px;
+    line-height: 600px;
+    float: left;
+  }
+
+  div:nth-child(3), div:nth-child(4){
+    width: 380px;
+    height: 200px;
+    line-height: 200px;
+    float: left;
+  }
+
+  div:nth-child(5), div:nth-child(6), div:nth-child(7), div:nth-child(8){
+    width: 190px;
+    height: 250px;
+    line-height: 250px;
+  }
+
+  div:nth-child(9){
+    width: 760px;
+    height: 150px;
+    line-height: 150px;
+    display: inline-block;
+  }
+}

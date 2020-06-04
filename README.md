@@ -16,3 +16,16 @@ Each box should have a unique background color in mobile view and in desktop vie
 Complete your Feature Tasks for the day
 Create a Pull Request (PR) back to the master branch of your repository
 On Canvas, submit a link to your PR
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Credit:
+
+Eric meyer reset: https://meyerweb.com/eric/tools/css/reset/
+
+SMACSS documentation: http://smacss.com
+
+Wireframe: https://codefellows.github.io/code-301-guide/curriculum/class-01/lab/comps/desktop-view.png
+
+
+
